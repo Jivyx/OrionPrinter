@@ -1,0 +1,86 @@
+solid OpenSCAD_Model
+  facet normal -0 0 1
+    outer loop
+      vertex -175 2.5 175
+      vertex 175 -2.5 175
+      vertex 175 2.5 175
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 175 -2.5 175
+      vertex -175 2.5 175
+      vertex -175 -2.5 175
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -175 -2.5 -175
+      vertex 175 2.5 -175
+      vertex 175 -2.5 -175
+    endloop
+  endfacet
+  facet normal -0 0 -1
+    outer loop
+      vertex 175 2.5 -175
+      vertex -175 -2.5 -175
+      vertex -175 2.5 -175
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex -175 -2.5 -175
+      vertex 175 -2.5 175
+      vertex -175 -2.5 175
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 175 -2.5 175
+      vertex -175 -2.5 -175
+      vertex 175 -2.5 -175
+    endloop
+  endfacet
+  facet normal 1 -0 0
+    outer loop
+      vertex 175 -2.5 175
+      vertex 175 2.5 -175
+      vertex 175 2.5 175
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 175 2.5 -175
+      vertex 175 -2.5 175
+      vertex 175 -2.5 -175
+    endloop
+  endfacet
+  facet normal 0 1 -0
+    outer loop
+      vertex 175 2.5 -175
+      vertex -175 2.5 175
+      vertex 175 2.5 175
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -175 2.5 175
+      vertex 175 2.5 -175
+      vertex -175 2.5 -175
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -175 -2.5 -175
+      vertex -175 2.5 175
+      vertex -175 2.5 -175
+    endloop
+  endfacet
+  facet normal -1 -0 0
+    outer loop
+      vertex -175 2.5 175
+      vertex -175 -2.5 -175
+      vertex -175 -2.5 175
+    endloop
+  endfacet
+endsolid OpenSCAD_Model
